@@ -212,7 +212,7 @@ class Program
                 // binary search in the array
                 Console.WriteLine("Please enter a number to check if exists: ");
                 const int value = Convert.ToInt32(System.ReadLine());
-                int index = Array.BinarySearch(numbers, 3)
+                int index = Array.BinarySearch(numbers, value);
                 Console.WriteLine($"Item Found At: {index}");
             case 13: // Clone Array
                 // Clone an array
@@ -226,7 +226,7 @@ class Program
                 int rank = matrix.Rank;
                 Console.WriteLine($"Array Dimension: {rank}");
             case 15: // Resize the array
-                Array.Resize(ref arr, 3);
+                Array.Resize(ref numbers, 10); // {v1 v2, v3, v4, v5, 0, 0, 0, 0, 0}
                 Console.WriteLine($"Resized Array:  {numbers}");
             default:
                 Console.WriteLine("Invalid choice.");
