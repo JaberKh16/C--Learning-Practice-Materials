@@ -1,33 +1,48 @@
 /*
     Array Methods In C#
     ===================
-    Array.Sort()
-    Array.Reverse()
-    Array.Replace()
-    Array.Concat()
-    Array.Remove()
-    Array.Copy()
-    Array.Fill()
+    Array.Sort(arr)                 => Sort the array ascending order in place
+    Array.Reverse(arr)              => Reverse the array in place
+    Array.Replace(arr, value)       => Replace a specified item in the array in place
+    Array.Concat()                  => Concat items in an array 
+    Array.Remove(arr, value)        => Remove item from the array
+    Array.Copy()                    => Copy item from the array
+    Array.Fill()                    => Fill the array with specified value
+    Array.Clear()                   => Clear the array
+    Array.IndexOf()                 => Get the index of the specified item
+    
 
 */
 
 using System;
+using Internal;
 
 class Program
 {
     public static void Main(string[] args)
     {
+        Console.WriteLine("Welcome to play with C# List");
+        Console.WriteLine("Available operations:");
+        Console.WriteLine("1. Create An Array");
+        Console.WriteLine("2. Read Array");
+        Console.WriteLine("3. Sort Array");
+        Console.WriteLine("4. Reverse Array");
+        Console.WriteLine("5. Copy Array");
+        Console.WriteLine("6. Clear Array");
+        Console.WriteLine("7. Get the index value of a item");
+        Console.WriteLine("8. Fill array with some value");
+        Console.WriteLine("9. Check if a value exists in the array");
+        Console.WriteLine("10. Find a value in the array");
+        Console.WriteLine("11. Find all values matches condition in the array");
+        Console.WriteLine("12. Perforom a binary search on the array");
+        Console.WriteLine("13. Clone the array");
+        Console.WriteLine("14. Get Array Dimension");
+        Console.WriteLine("15. Resize the array");
         Console.WriteLine("Please enter the array length: ");
         int arrLength = Convert.ToInt32(Console.ReadLine());
 
         // Declared array
         int[] numbers = new int[arrLength];
-
-        Console.WriteLine("Please enter the array elements:");
-        for (int i = 0; i < numbers.Length; i++)
-        {
-            numbers[i] = Convert.ToInt32(Console.ReadLine());
-        }
 
         Console.WriteLine("Please enter your choice operation: ");
         int choice = Convert.ToInt32(Console.ReadLine());
@@ -36,7 +51,20 @@ class Program
 
         switch (choice)
         {
-            case 0: // Sorting
+            case 0: // create
+
+                Console.WriteLine("Please enter the array elements:");
+                for (int i = 0; i < numbers.Length; i++)
+                {
+                    numbers[i] = Convert.ToInt32(Console.ReadLine());
+                }
+                break;
+            case 1:
+                Console.WriteLine("Array Items are: ");
+                PrintArray(numbers);
+
+
+            case 2: // Sorting
                 promptMessage = @"Enter your choice:
                                 1. Simple Sorting
                                 2. Sorting a portion of the array";
@@ -75,7 +103,7 @@ class Program
                 }
                 break;
 
-            case 1: // Reverse
+            case 3: // Reverse
                 promptMessage = @"Enter your choice:
                                 1. Reverse";
                 Console.WriteLine(promptMessage);
@@ -100,7 +128,7 @@ class Program
                 }
                 break;
 
-            case 2: // Copy
+            case 4: // Copy
                 promptMessage = @"Enter your choice:
                                 1. Copy to a new array
                                 2. Copy with specific indices";
@@ -143,14 +171,63 @@ class Program
                     Console.WriteLine("Please choose an option.");
                 }
                 break;
-            case 3:
+            case 5: // Reverse
+                Array.Reverse(numbers);
+                Console.WriteLine("Reversed array: {0}", numbers.Length);
+            case 6: // Clear
                 Array.Clear(numbers);
-                System.WriteLine("Cleared array: {0}", numbers.Length);
+                Console.WriteLine("Cleared array: {0}", numbers.Length);
 
-            case 4:
+            case 7: // Find Index
                 // IndexOf() returns -1 if existes, otherwise the index value
                 var value = Array.IndexOf(numbers, 2); // find the value 44 in numbers array
-                System.WriteLine("Index : {0}", value);
+                Console.WriteLine("Index : {0}", value);
+
+            case 8: // Fill Array
+                // fill the arrays
+                int[] numbers = new int[5];
+                Console.WriteLine("Please enter a number to fill with: ");
+                const int value = Convert.ToInt32(System.ReadLine());
+                Array.Fill(numbers, value); // { value, value, value, value, value }
+                Console.WriteLine($"Filled Array: {numbers}");
+            case 9: // Check Existence Of An Item
+                // check if a item exists
+                Console.WriteLine("Please enter a number to check if exists: ");
+                const int value = Convert.ToInt32(System.ReadLine());
+                bool exists = Array.Exists(numbers, x => x == value);
+                Console.WriteLine($"Exists: {exists}");
+            case 10: // Find An Item Matches Condition
+                // find an item in the array
+                Console.WriteLine("Please enter a number to check if exists: ");
+                const int value = Convert.ToInt32(System.ReadLine());
+                int found = Array.Find(numbers, x => x > value);
+                Console.WriteLine($"Item Found: {found}");
+            case 11: // Find All Item Matches Condition
+                // find all item in the array
+                Console.WriteLine("Please enter a number to check if exists: ");
+                const int value = Convert.ToInt32(System.ReadLine());
+                int[] results = Array.FindAll(numbers, x => x > value);
+                Console.WriteLine($"Returned Array: {results}");
+            case 12: // Binary Search
+                // binary search in the array
+                Console.WriteLine("Please enter a number to check if exists: ");
+                const int value = Convert.ToInt32(System.ReadLine());
+                int index = Array.BinarySearch(numbers, 3)
+                Console.WriteLine($"Item Found At: {index}");
+            case 13: // Clone Array
+                // Clone an array
+                Console.WriteLine("Please enter a number to check if exists: ");
+                const int value = Convert.ToInt32(System.ReadLine());
+                int[] cloneArray = (int[])Array.Clone(numbers);
+                Console.WriteLine($"Cloned Array: {cloneArray}");
+            case 14: // Get Array Dimension
+                // Array Dimension
+                const int value = Convert.ToInt32(System.ReadLine());
+                int rank = matrix.Rank;
+                Console.WriteLine($"Array Dimension: {rank}");
+            case 15: // Resize the array
+                Array.Resize(ref arr, 3);
+                Console.WriteLine($"Resized Array:  {numbers}");
             default:
                 Console.WriteLine("Invalid choice.");
                 break;
