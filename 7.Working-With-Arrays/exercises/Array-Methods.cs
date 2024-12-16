@@ -1,43 +1,45 @@
 /*
     Array Methods In C#
     ===================
-    Array.Sort(arr)                 => Sort the array ascending order in place
-    Array.Reverse(arr)              => Reverse the array in place
-    Array.Replace(arr, value)       => Replace a specified item in the array in place
-    Array.Concat()                  => Concat items in an array 
-    Array.Remove(arr, value)        => Remove item from the array
-    Array.Copy()                    => Copy item from the array
-    Array.Fill()                    => Fill the array with specified value
-    Array.Clear()                   => Clear the array
-    Array.IndexOf()                 => Get the index of the specified item
+    Array.Sort(arr)                                     => Sort the array ascending order in place
+    Array.Reverse(arr)                                  => Reverse the array in place
+    Array.Replace(arr, value)                           => Replace a specified item in the array in place
+    Array.Concat(arr1, arr2)                            => Concat items in an array 
+    Array.Copy(srcArr, destArr, srcArr.Length)          => Copy item from the array
+    Array.Fill(arr, value)                              => Fill the array with specified value
+    Array.Clear(arr)                                    => Clear the array
+    Array.IndexOf(value)                                => Get the index of the specified item
     
 
 */
 
 using System;
-using Internal;
 
 class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Welcome to play with C# List");
-        Console.WriteLine("Available operations:");
-        Console.WriteLine("1. Create An Array");
-        Console.WriteLine("2. Read Array");
-        Console.WriteLine("3. Sort Array");
-        Console.WriteLine("4. Reverse Array");
-        Console.WriteLine("5. Copy Array");
-        Console.WriteLine("6. Clear Array");
-        Console.WriteLine("7. Get the index value of a item");
-        Console.WriteLine("8. Fill array with some value");
-        Console.WriteLine("9. Check if a value exists in the array");
-        Console.WriteLine("10. Find a value in the array");
-        Console.WriteLine("11. Find all values matches condition in the array");
-        Console.WriteLine("12. Perforom a binary search on the array");
-        Console.WriteLine("13. Clone the array");
-        Console.WriteLine("14. Get Array Dimension");
-        Console.WriteLine("15. Resize the array");
+        string operationsMessage = @"
+                Welcome to play with C# List
+                Available operations:
+                1. Create An Array
+                2. Read Array
+                3. Sort Array
+                4. Reverse Array
+                5. Copy Array
+                6. Clear Array
+                7. Get the index value of an item
+                8. Fill array with some value
+                9. Check if a value exists in the array
+                10. Find a value in the array
+                11. Find all values matching a condition in the array
+                12. Perform a binary search on the array
+                13. Clone the array
+                14. Get Array Dimension
+                15. Resize the array
+                ";
+        Console.WriteLine(operationsMessage);
+
         Console.WriteLine("Please enter the array length: ");
         int arrLength = Convert.ToInt32(Console.ReadLine());
 
@@ -187,43 +189,41 @@ class Program
                 // fill the arrays
                 int[] numbers = new int[5];
                 Console.WriteLine("Please enter a number to fill with: ");
-                const int value = Convert.ToInt32(System.ReadLine());
-                Array.Fill(numbers, value); // { value, value, value, value, value }
+                const int fillValue = Convert.ToInt32(Console.ReadLine());
+                Array.Fill(numbers, fillValue); // { value, value, value, value, value }
                 Console.WriteLine($"Filled Array: {numbers}");
             case 9: // Check Existence Of An Item
                 // check if a item exists
                 Console.WriteLine("Please enter a number to check if exists: ");
-                const int value = Convert.ToInt32(System.ReadLine());
-                bool exists = Array.Exists(numbers, x => x == value);
+                const int itemVal = Convert.ToInt32(Console.ReadLine());
+                bool exists = Array.Exists(numbers, x => x == itemVal);
                 Console.WriteLine($"Exists: {exists}");
             case 10: // Find An Item Matches Condition
                 // find an item in the array
                 Console.WriteLine("Please enter a number to check if exists: ");
-                const int value = Convert.ToInt32(System.ReadLine());
-                int found = Array.Find(numbers, x => x > value);
+                const int itemValue = Convert.ToInt32(Console.ReadLine());
+                int found = Array.Find(numbers, x => x > itemValue);
                 Console.WriteLine($"Item Found: {found}");
             case 11: // Find All Item Matches Condition
                 // find all item in the array
                 Console.WriteLine("Please enter a number to check if exists: ");
-                const int value = Convert.ToInt32(System.ReadLine());
-                int[] results = Array.FindAll(numbers, x => x > value);
+                const int itemVals = Convert.ToInt32(Console.ReadLine());
+                int[] results = Array.FindAll(numbers, x => x > itemVals);
                 Console.WriteLine($"Returned Array: {results}");
             case 12: // Binary Search
                 // binary search in the array
                 Console.WriteLine("Please enter a number to check if exists: ");
-                const int value = Convert.ToInt32(System.ReadLine());
-                int index = Array.BinarySearch(numbers, value);
+                const int itemValSearch = Convert.ToInt32(Console.ReadLine());
+                int index = Array.BinarySearch(numbers, itemValSearch);
                 Console.WriteLine($"Item Found At: {index}");
             case 13: // Clone Array
                 // Clone an array
-                Console.WriteLine("Please enter a number to check if exists: ");
-                const int value = Convert.ToInt32(System.ReadLine());
                 int[] cloneArray = (int[])Array.Clone(numbers);
                 Console.WriteLine($"Cloned Array: {cloneArray}");
             case 14: // Get Array Dimension
                 // Array Dimension
-                const int value = Convert.ToInt32(System.ReadLine());
-                int rank = matrix.Rank;
+                const int value = Convert.ToInt32(Console.ReadLine());
+                int rank = numbers.Rank;
                 Console.WriteLine($"Array Dimension: {rank}");
             case 15: // Resize the array
                 Array.Resize(ref numbers, 10); // {v1 v2, v3, v4, v5, 0, 0, 0, 0, 0}
