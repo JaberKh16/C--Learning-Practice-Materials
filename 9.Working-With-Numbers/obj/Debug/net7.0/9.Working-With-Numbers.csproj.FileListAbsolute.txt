@@ -1,0 +1,15 @@
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/9.Working-With-Numbers/obj/Debug/net7.0/9.Working-With-Numbers.csproj.AssemblyReference.cache
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/9.Working-With-Numbers/obj/Debug/net7.0/9.Working-With-Numbers.GeneratedMSBuildEditorConfig.editorconfig
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/9.Working-With-Numbers/obj/Debug/net7.0/9.Working-With-Numbers.AssemblyInfoInputs.cache
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/9.Working-With-Numbers/obj/Debug/net7.0/9.Working-With-Numbers.AssemblyInfo.cs
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/9.Working-With-Numbers/obj/Debug/net7.0/9.Working-With-Numbers.csproj.CoreCompileInputs.cache
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/9.Working-With-Numbers/bin/Debug/net7.0/9.Working-With-Numbers
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/9.Working-With-Numbers/bin/Debug/net7.0/9.Working-With-Numbers.deps.json
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/9.Working-With-Numbers/bin/Debug/net7.0/9.Working-With-Numbers.runtimeconfig.json
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/9.Working-With-Numbers/bin/Debug/net7.0/9.Working-With-Numbers.dll
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/9.Working-With-Numbers/bin/Debug/net7.0/9.Working-With-Numbers.pdb
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/9.Working-With-Numbers/obj/Debug/net7.0/9.Working-With-Numbers.dll
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/9.Working-With-Numbers/obj/Debug/net7.0/refint/9.Working-With-Numbers.dll
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/9.Working-With-Numbers/obj/Debug/net7.0/9.Working-With-Numbers.pdb
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/9.Working-With-Numbers/obj/Debug/net7.0/9.Working-With-Numbers.genruntimeconfig.cache
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/9.Working-With-Numbers/obj/Debug/net7.0/ref/9.Working-With-Numbers.dll
