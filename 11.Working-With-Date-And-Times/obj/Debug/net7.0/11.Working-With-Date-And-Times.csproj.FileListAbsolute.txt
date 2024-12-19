@@ -1,0 +1,15 @@
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/11.Working-With-Date-And-Times/bin/Debug/net7.0/11.Working-With-Date-And-Times
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/11.Working-With-Date-And-Times/bin/Debug/net7.0/11.Working-With-Date-And-Times.deps.json
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/11.Working-With-Date-And-Times/bin/Debug/net7.0/11.Working-With-Date-And-Times.runtimeconfig.json
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/11.Working-With-Date-And-Times/bin/Debug/net7.0/11.Working-With-Date-And-Times.dll
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/11.Working-With-Date-And-Times/bin/Debug/net7.0/11.Working-With-Date-And-Times.pdb
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/11.Working-With-Date-And-Times/obj/Debug/net7.0/11.Working-With-Date-And-Times.csproj.AssemblyReference.cache
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/11.Working-With-Date-And-Times/obj/Debug/net7.0/11.Working-With-Date-And-Times.GeneratedMSBuildEditorConfig.editorconfig
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/11.Working-With-Date-And-Times/obj/Debug/net7.0/11.Working-With-Date-And-Times.AssemblyInfoInputs.cache
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/11.Working-With-Date-And-Times/obj/Debug/net7.0/11.Working-With-Date-And-Times.AssemblyInfo.cs
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/11.Working-With-Date-And-Times/obj/Debug/net7.0/11.Working-With-Date-And-Times.csproj.CoreCompileInputs.cache
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/11.Working-With-Date-And-Times/obj/Debug/net7.0/11.Working-With-Date-And-Times.dll
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/11.Working-With-Date-And-Times/obj/Debug/net7.0/refint/11.Working-With-Date-And-Times.dll
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/11.Working-With-Date-And-Times/obj/Debug/net7.0/11.Working-With-Date-And-Times.pdb
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/11.Working-With-Date-And-Times/obj/Debug/net7.0/11.Working-With-Date-And-Times.genruntimeconfig.cache
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/11.Working-With-Date-And-Times/obj/Debug/net7.0/ref/11.Working-With-Date-And-Times.dll
