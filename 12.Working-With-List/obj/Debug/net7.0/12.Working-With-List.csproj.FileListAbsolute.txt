@@ -1,0 +1,15 @@
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/12.Working-With-List/obj/Debug/net7.0/12.Working-With-List.csproj.AssemblyReference.cache
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/12.Working-With-List/obj/Debug/net7.0/12.Working-With-List.GeneratedMSBuildEditorConfig.editorconfig
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/12.Working-With-List/obj/Debug/net7.0/12.Working-With-List.AssemblyInfoInputs.cache
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/12.Working-With-List/obj/Debug/net7.0/12.Working-With-List.AssemblyInfo.cs
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/12.Working-With-List/obj/Debug/net7.0/12.Working-With-List.csproj.CoreCompileInputs.cache
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/12.Working-With-List/bin/Debug/net7.0/12.Working-With-List
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/12.Working-With-List/bin/Debug/net7.0/12.Working-With-List.deps.json
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/12.Working-With-List/bin/Debug/net7.0/12.Working-With-List.runtimeconfig.json
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/12.Working-With-List/bin/Debug/net7.0/12.Working-With-List.dll
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/12.Working-With-List/bin/Debug/net7.0/12.Working-With-List.pdb
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/12.Working-With-List/obj/Debug/net7.0/12.Working-With-List.dll
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/12.Working-With-List/obj/Debug/net7.0/refint/12.Working-With-List.dll
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/12.Working-With-List/obj/Debug/net7.0/12.Working-With-List.pdb
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/12.Working-With-List/obj/Debug/net7.0/12.Working-With-List.genruntimeconfig.cache
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/12.Working-With-List/obj/Debug/net7.0/ref/12.Working-With-List.dll
