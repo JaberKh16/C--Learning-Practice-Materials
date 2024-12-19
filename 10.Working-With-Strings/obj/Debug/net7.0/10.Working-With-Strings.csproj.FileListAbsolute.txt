@@ -1,0 +1,15 @@
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/10.Working-With-Strings/obj/Debug/net7.0/10.Working-With-Strings.csproj.AssemblyReference.cache
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/10.Working-With-Strings/obj/Debug/net7.0/10.Working-With-Strings.GeneratedMSBuildEditorConfig.editorconfig
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/10.Working-With-Strings/obj/Debug/net7.0/10.Working-With-Strings.AssemblyInfoInputs.cache
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/10.Working-With-Strings/obj/Debug/net7.0/10.Working-With-Strings.AssemblyInfo.cs
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/10.Working-With-Strings/obj/Debug/net7.0/10.Working-With-Strings.csproj.CoreCompileInputs.cache
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/10.Working-With-Strings/bin/Debug/net7.0/10.Working-With-Strings
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/10.Working-With-Strings/bin/Debug/net7.0/10.Working-With-Strings.deps.json
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/10.Working-With-Strings/bin/Debug/net7.0/10.Working-With-Strings.runtimeconfig.json
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/10.Working-With-Strings/bin/Debug/net7.0/10.Working-With-Strings.dll
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/10.Working-With-Strings/bin/Debug/net7.0/10.Working-With-Strings.pdb
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/10.Working-With-Strings/obj/Debug/net7.0/10.Working-With-Strings.dll
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/10.Working-With-Strings/obj/Debug/net7.0/refint/10.Working-With-Strings.dll
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/10.Working-With-Strings/obj/Debug/net7.0/10.Working-With-Strings.pdb
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/10.Working-With-Strings/obj/Debug/net7.0/10.Working-With-Strings.genruntimeconfig.cache
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/10.Working-With-Strings/obj/Debug/net7.0/ref/10.Working-With-Strings.dll
