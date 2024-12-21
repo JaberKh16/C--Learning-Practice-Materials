@@ -50,12 +50,13 @@ Console.WriteLine($"Kind: {exactDateOfBirthWithKind.Kind}");
 Console.WriteLine("Tell me a date time(dd/mm/yyyy)");
 string dob = Console.ReadLine();
 var userProvidedDob = DateTime.Parse(dob);
-Console.WriteLine($"User provided dob is: {userProvidedDob}"); 
+Console.WriteLine($"User provided dob is: {userProvidedDob}");
 
 
 // change format datetime
+// DateTime.ToString("format") to format the datetime into specified format
 Console.WriteLine($"User provided dob is: {userProvidedDob.ToString("dd/MM/yyyy")}");
-Console.WriteLine($"User provided dob is: {userProvidedDob.ToString("dd-MM-yyyy")}"); 
+Console.WriteLine($"User provided dob is: {userProvidedDob.ToString("dd-MM-yyyy")}");
 Console.WriteLine($"User provided dob is: {userProvidedDob.ToString("MM, dd-yyyy")}");
 Console.WriteLine($"User provided dob is: {userProvidedDob.ToString("dd-MMM-yyyy")}");
 Console.WriteLine($"User provided dob is: {userProvidedDob.ToString("dddd, dd, MMMM, yyyy")}");
@@ -139,8 +140,11 @@ var date2 = new DateTime(1998, 1, 10);
 
 
 // can compare using >, < , ==, Equals(), 
-if(date1.Equals(date2)){
+if (date1.Equals(date2))
+{
     Console.WriteLine($"Both are equal");
-} else{
+}
+else
+{
     Console.WriteLine($"Both are not equal");
 }
