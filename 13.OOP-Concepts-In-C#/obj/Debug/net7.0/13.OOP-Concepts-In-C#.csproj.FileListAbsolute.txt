@@ -1,0 +1,15 @@
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/13.OOP-Concepts-In-C#/obj/Debug/net7.0/13.OOP-Concepts-In-C#.csproj.AssemblyReference.cache
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/13.OOP-Concepts-In-C#/obj/Debug/net7.0/13.OOP-Concepts-In-C#.GeneratedMSBuildEditorConfig.editorconfig
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/13.OOP-Concepts-In-C#/obj/Debug/net7.0/13.OOP-Concepts-In-C#.AssemblyInfoInputs.cache
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/13.OOP-Concepts-In-C#/obj/Debug/net7.0/13.OOP-Concepts-In-C#.AssemblyInfo.cs
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/13.OOP-Concepts-In-C#/obj/Debug/net7.0/13.OOP-Concepts-In-C#.csproj.CoreCompileInputs.cache
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/13.OOP-Concepts-In-C#/bin/Debug/net7.0/13.OOP-Concepts-In-C#
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/13.OOP-Concepts-In-C#/bin/Debug/net7.0/13.OOP-Concepts-In-C#.deps.json
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/13.OOP-Concepts-In-C#/bin/Debug/net7.0/13.OOP-Concepts-In-C#.runtimeconfig.json
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/13.OOP-Concepts-In-C#/bin/Debug/net7.0/13.OOP-Concepts-In-C#.dll
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/13.OOP-Concepts-In-C#/bin/Debug/net7.0/13.OOP-Concepts-In-C#.pdb
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/13.OOP-Concepts-In-C#/obj/Debug/net7.0/13.OOP-Concepts-In-C#.dll
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/13.OOP-Concepts-In-C#/obj/Debug/net7.0/refint/13.OOP-Concepts-In-C#.dll
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/13.OOP-Concepts-In-C#/obj/Debug/net7.0/13.OOP-Concepts-In-C#.pdb
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/13.OOP-Concepts-In-C#/obj/Debug/net7.0/13.OOP-Concepts-In-C#.genruntimeconfig.cache
+/home/jaber/Documents/C-sharp-Learning-Practices-main/practice-c#/practicing-c#-learning/13.OOP-Concepts-In-C#/obj/Debug/net7.0/ref/13.OOP-Concepts-In-C#.dll
